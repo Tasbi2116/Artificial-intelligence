@@ -1,0 +1,18 @@
+Lab 3. Simple agent
+This assignment is a simulation of a real world scenario. The location of each truck would be (x,y)
+coordinates {such as (0,0), (0,1), (1,0), (1,1) and so on}. Test with at least 5x7 dimensions.
+Dimensions are not fixed. You must consider some operations (say 5) in a single time step. In a
+single time step, the truck will continue to move randomly until it reaches at any last coordinate.
+Before each timestep, the locations of the objects should be initialized randomly, except for the
+locations in the previous timestep. Move will be random except for the boundary locations. When
+the agent reaches a boundary location there would be no move in a step. Measure performance
+according to first assignment that I already taught. In the program, you also need to track the
+locations of the truck in a separate variable.
+Must: When you show your work you to show the followings in paper or pdf (50% marks of the
+assignment):
+ Theoretical Analysis
+ Data structure
+ Algorithm to function/method representation
+ Implementation
+ Input test cases format
+ Output format
