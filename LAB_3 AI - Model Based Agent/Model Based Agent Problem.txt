@@ -1,0 +1,35 @@
+Lab 4. Model based agent (10 points)
+Continue with part 2 solution. Each moving states need to check whether there are hurdles or
+not in front of the agent. Need to handle the movements in each time step. Consider the
+following scenarios.
+
+Timestep is like part 2. However, in each time step you must set a few hurdles randomly, but
+make sure that hurdles are not many. For example, set one hurdle for per 8 locations. Make some
+cases of two consecutive hurdles. You can consider the large assigned value such as 999 in a
+location/tile as a hurdle. In this assignment, the moves of the truck should be towards the
+location of the containing objects. That means, you need to know the locations of the
+objects and start moving to any of them. If any hurdle confronted, you should try different
+path to reach that object. Similar to previous assignment, the step stops when the truck reach
+an edge. The output of this assignment also includes where the agent confronted hurdles and
+how many extra moves it required to get a object. Measure performance according to previous
+assignment.
+*** The truck must not go to previous location after a move.
+Must: When you show your work you to show the followings in paper or pdf (50% marks of the
+assignment):
+ Theoretical Analysis
+ Data structure
+ Algorithm to function/method representation
+ Implementation
+ Input test cases format
+ Output format
+*** Outputs/print information in each time step
+ The environments in the console/UI
+ The movements of the truck in the console/UI
+ The hurdles in the locations of the environment in the console/UI
+Scenario 1 Scenario 2 Scenario 3 Scenario 4
+
+1. https://www.pngwing.com/en/free-png-ndonk
+2. https://www.youtube.com/watch?v=alIq_wG9FNk
+
+ The paths of movement
+ The moved paths after each hurdle
